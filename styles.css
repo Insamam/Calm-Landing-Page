@@ -1,17 +1,14 @@
-/* Reset styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Global styles */
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
   }
   
-  /* Header styles */
   header {
     background-color: #333;
     color: #fff;
@@ -43,7 +40,7 @@
     text-decoration: none;
   }
   
-  /* Hero section styles */
+
   .hero {
     background-image: url('bg1.jpg');
     background-size: cover;
@@ -75,7 +72,7 @@
     cursor: pointer;
   }
   
-  /* Features section styles */
+  
   .features {
     display: flex;
     justify-content: center;
@@ -104,7 +101,6 @@
     margin-top: 10px;
   }
   
-  /* Footer styles */
   footer {
     background-color: #333;
     color: #fff;
@@ -112,9 +108,9 @@
     padding: 20px;
   }
   
-  /* Responsive styles */
+  
   @media (max-width: 768px) {
-    /* Header styles */
+
     nav ul {
       flex-direction: column;
       align-items: center;
@@ -124,7 +120,6 @@
       margin: 10px 0;
     }
   
-    /* Hero section styles */
     .hero {
       height: 400px;
     }
@@ -137,7 +132,6 @@
       font-size: 18px;
     }
   
-    /* Features section styles */
     .features {
       padding: 20px;
     }
